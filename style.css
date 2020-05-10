@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.strapline-container {
+    border: 2px solid rgb(207, 19, 107);
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url('./images/chocolate-pudding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.main-strapline {
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 80px;
+    margin: 50px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-strapline {
+    color: #FFFFDD;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+}
+
+.about-container {
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-box {
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.top-row, .bottom-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url('./images/mango-pudding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url('./images/redberry-pudding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url('./images/coffee-pudding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url('./images/blueberry-pudding.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.puddings-section {
+    width: 100vw;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.row-one,.row-two,.row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid-item {
+    width: 30%;
+    height: 310px;
+    display: inline-block;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+}
+
+#p-1 {
+    background-image: url('./images/puddings-image/p1.jpg');
+}
+
+#p-2 {
+    background-image: url('./images/puddings-image/p2.jpg');
+}
+
+#p-3 {
+    background-image: url('./images/puddings-image/p3.jpg');
+}
+
+#p-4 {
+    background-image: url('./images/puddings-image/p4.jpg');
+}
+
+#p-5 {
+    background-image: url('./images/puddings-image/p5.jpg');
+}
+
+#p-6 {
+    background-image: url('./images/puddings-image/p6.jpg');
+}
+
+#p-7 {
+    background-image: url('./images/puddings-image/p7.jpg');
+}
+
+#p-8 {
+    background-image: url('./images/puddings-image/p8.jpg');
+}
+
+#p-9 {
+    background-image: url('./images/puddings-image/p9.jpg');
+}
+
+.stores-container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.store-div {
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #FFFFDD;
+}
+
+.contact-title {
+    margin: 25px 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+.email {
+    font-size: 140%;
+}
+
+.social-media-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0px auto;
+}
+
+.social-media-icon {
+    margin: 0px 7.5px;
+}
